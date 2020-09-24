@@ -43,8 +43,10 @@
       <h3>
         About
       </h3>
-      2000年生まれ
-      秋田出身
+      <p>
+        2000年生まれ
+        秋田出身
+      </p>
       <h3>
         picture
         <div class="recentpicture">
@@ -159,6 +161,9 @@ ul {
 }
 
 h3 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin-top: 20px;
 }
 
@@ -172,6 +177,12 @@ h3 {
 
 .contact {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
